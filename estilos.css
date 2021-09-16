@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Source+Code+Pro:ital,wght@0,600;1,600&family=ZCOOL+KuaiLe&display=swap');
+
+/* XX-Large  (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+      main{ width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+body {
+	background-color: #ffffff;
+	background-image: url("pattern.jpg");
+	backface-visibility: cover;
+}
+
+#contenedor {
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+header {
+	font-family: 'ZCOOL KuaiLe', cursive;
+	background-image: linear-gradient(rgb(92, 124, 40 ) 0%, rgb(95, 138, 43 ) 50%, rgb(110, 159, 51) 100%);
+	height: 100px;
+	text-shadow: 5px 5px 5px #242917;
+}
+
+h1 {
+	padding-top: 25px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 50px;
+}
+
+
+#png {
+	position: absolute;
+	padding-top: 273px;
+	padding-left: 640px;
+}
+
+#imagenes {
+	width: 360px;
+	height: 1200px;
+	opacity: 100%;
+
+}
+
+#video {
+	padding: 200px;
+	margin-left: 210px;
+	margin-right: auto;
+	margin-top: -1400px;
+
+}
+
+#contexto {
+	background-color: #B9DE5B;
+	width: 696px;
+	margin-left: 390px;
+	margin-top: -190px;
+	padding: 2px;
+	border: 4px solid #000000;
+	border-radius: 50px;
+}
+
+#contexto p {
+	font-family: 'Roboto Slab', serif;
+	text-align: justify;
+	font-size: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+}
+
+#columnas {
+	width: 680px;
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #B9DE5B;
+	margin-left: auto;
+	margin-right: -10px;
+	column-count: 2;
+	column-gap: 50px;
+	column-rule: 3px solid #ffffff;
+	border: 4px solid #000000;
+	border-radius: 50px;
+}
+
+
+#columnas p {
+	padding: 10px;
+	font-family: 'Roboto Slab', serif;
+	text-align: left;
+	font-size: 20px;
+}
+
+footer {
+
+	height: 80px;
+	background-image: linear-gradient(rgb(92, 124, 40 ) 0%, rgb(95, 138, 43 ) 50%, rgb(110, 159, 51) 100%);
+	margin-top: 15px;
+
+}
+
+
+#nombre {
+	font-family: 'ZCOOL KuaiLe', cursive;
+	margin-left: 463px;
+	margin-top: -50px;
+}
+#nombre a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 19px;
+	text-shadow: 5px 5px 5px #242917;
+}
+
+#logo {
+	margin-left: 100px;
+	padding-top: 10px;
+}
+
+#serie {
+	margin-left: 900px;
+	margin-top: -40px;
+}
+}
+
+
+
+/* XX-Large  (larger desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399px){ 
+      main{ width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+body {
+	background-color: #ffffff;
+	background-image: url("pattern.jpg");
+	backface-visibility: cover;
+}
+
+#contenedor {
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+header {
+	font-family: 'ZCOOL KuaiLe', cursive;
+	background-image: linear-gradient(rgb(92, 124, 40 ) 0%, rgb(95, 138, 43 ) 50%, rgb(110, 159, 51) 100%);
+	height: 70px;
+	text-shadow: 5px 5px 5px #242917;
+}
+
+h1 {
+	padding-top: 15px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 30px;
+}
+
+
+#png {
+	position: absolute;
+	padding-top: 273px;
+	padding-left: 650px;
+}
+
+#imagenes {
+	width: 360px;
+	height: 520px;
+	opacity: 100%;
+
+}
+
+#video {
+	padding: 200px;
+	margin-left: 220px;
+	margin-right: auto;
+	margin-top: -720px;
+
+}
+
+#contexto {
+	background-color: #B9DE5B;
+	width: 696px;
+	margin-left: 390px;
+	margin-top: -190px;
+	padding: 2px;
+	border: 4px solid #000000;
+	border-radius: 50px;
+}
+
+#contexto p {
+	font-family: 'Roboto Slab', serif;
+	text-align: justify;
+	font-size: 22px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+}
+
+#columnas {
+	width: 670px;
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #B9DE5B;
+	margin-left: auto;
+	margin-right: -10px;
+	column-count: 2;
+	column-gap: 50px;
+	column-rule: 3px solid #ffffff;
+	border: 4px solid #000000;
+	border-radius: 50px;
+}
+
+
+#columnas p {
+	padding: 10px;
+	font-family: 'Roboto Slab', serif;
+	text-align: left;
+	font-size: 20px;
+}
+
+footer {
+	height: 70px;
+	background-image: linear-gradient(rgb(92, 124, 40 ) 0%, rgb(95, 138, 43 ) 50%, rgb(110, 159, 51) 100%);
+	margin-top: 15px;
+
+}
+
+
+#nombre {
+	font-family: 'ZCOOL KuaiLe', cursive;
+	margin-left: 463px;
+	margin-top: -40px;
+}
+#nombre a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 20px;
+	text-shadow: 5px 5px 5px #242917;
+}
+
+#logo {
+	margin-left: 100px;
+	padding-top: 5px;
+}
+
+#serie {
+	margin-left: 900px;
+	margin-top: -40px;
+}
+}
